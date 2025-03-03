@@ -20,3 +20,15 @@ A simple **QR Code Generator** built with **Python** that allows users to create
 ```sh
 git clone https://github.com/your-username/QR-Generator.git
 cd QR-Generator
+
+2️⃣ Install Required Dependencies
+pip install qrcode[pil]
+
+3️⃣ Run the Script
+python qr_generator.py
+
+4️⃣ Example Usage
+If running via command line:
+Enter text or URL: https://github.com/
+QR code saved as qr_code.png ✅
+
